@@ -33,7 +33,7 @@ resource "yandex_storage_object" "error" {
 
 
 resource "yandex_cdn_origin_group" "origin_group" {
-  name = "Origin for cdn.waghangad.com"
+  name = "Origin for cdn.abcd.com"
   folder_id = "Your_folder_id"
 
   origin {
